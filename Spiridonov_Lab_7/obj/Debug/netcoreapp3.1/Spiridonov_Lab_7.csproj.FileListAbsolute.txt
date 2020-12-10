@@ -1,0 +1,15 @@
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\bin\Debug\netcoreapp3.1\Spiridonov_Lab_7.exe
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.AssemblyInfoInputs.cache
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.AssemblyInfo.cs
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\bin\Debug\netcoreapp3.1\Telegram.Bot.dll
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.csproj.CopyComplete
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\bin\Debug\netcoreapp3.1\Spiridonov_Lab_7.deps.json
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\bin\Debug\netcoreapp3.1\Spiridonov_Lab_7.runtimeconfig.json
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\bin\Debug\netcoreapp3.1\Spiridonov_Lab_7.runtimeconfig.dev.json
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\bin\Debug\netcoreapp3.1\Spiridonov_Lab_7.dll
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\bin\Debug\netcoreapp3.1\Spiridonov_Lab_7.pdb
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.csproj.CoreCompileInputs.cache
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.dll
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.pdb
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.genruntimeconfig.cache
