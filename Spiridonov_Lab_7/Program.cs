@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using Telegram.Bot;
+using System.Globalization;
 
 
 namespace Spiridonov_Lab_7
@@ -101,11 +102,25 @@ namespace Spiridonov_Lab_7
             var reverseCommand = "*reverse*";
             var upperCommand = "*upper*";
             var command = e.Message.Text;
+            string timeInParis = (DateTime.UtcNow.AddHours(1).ToString("HH:mm:ss"));
+            string todayString = DateTime.Today.ToLongDateString();
+
+            var todayDayOfWeek = DateTime.Today.DayOfWeek;
+            var todayDayOfWeekValue = CultureInfo.GetCultureInfo("ru-RU").DateTimeFormat.GetDayName(todayDayOfWeek);
+
+            string todayMessage = ($"{todayString} {todayDayOfWeekValue}");
+            string welcomeMessage = "Привет, это тренировочный бот для лабороторной работы 7!\n" +
+                "- Для получения фотографии котика введите Cat или cat\n" +
+                "- Для получения фотографии песика введите Dog или dog\n" +
+                "- Для получения развернутого текста впишите в начале или конце Вашего сообщения *reverse*\n" +
+                "- Для получения сообщения в верхнем регистре введите *upper*\n" +
+                "- Для получения времени в Париже введите *Time in Paris*\n" +
+                "- Для получения сегодняшней даты введите *Today*";
 
             string reverseLetter = "";
             if (command.StartsWith(reverseCommand))
             {
-                char[] sReverse = command.Remove(0,10).ToCharArray();
+                char[] sReverse = command.Remove(0, 10).ToCharArray();
                 Array.Reverse(sReverse);
                 reverseLetter = new string(sReverse);
                 needReverse = true;
@@ -128,11 +143,15 @@ namespace Spiridonov_Lab_7
             else if (command.EndsWith(upperCommand))
             {
                 upperLetter = e.Message.Text.ToUpper();
-                upperLetter = upperLetter.TrimEnd('*','U','P','E','R');
+                upperLetter = upperLetter.TrimEnd('*', 'U', 'P', 'E', 'R');
                 needUpper = true;
             }
 
-            if (command != null)
+            if (command == "/start")
+            {
+                botClient.SendTextMessageAsync(e.Message.Chat, welcomeMessage);
+            }
+            else if (command != null)
             {
 
                 IAPI animal;
@@ -154,6 +173,15 @@ namespace Spiridonov_Lab_7
                         else if (needUpper == true)
                         {
                             botClient.SendTextMessageAsync(e.Message.Chat, upperLetter);
+                        }
+                        else if (command == "*Time in Paris*")
+                        {
+                            botClient.SendTextMessageAsync(e.Message.Chat, timeInParis);
+                        }
+                        else if (command == "*Today*")
+                        {
+
+                            botClient.SendTextMessageAsync(e.Message.Chat, todayMessage);
                         }
                         else
                         {

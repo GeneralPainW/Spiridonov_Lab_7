@@ -13,3 +13,4 @@ F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\
 F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.dll
 F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.pdb
 F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.genruntimeconfig.cache
+F:\Обучение\Универ\C#\Spiridonov_Lab_7\Spiridonov_Lab_7\obj\Debug\netcoreapp3.1\Spiridonov_Lab_7.csprojAssemblyReference.cache
